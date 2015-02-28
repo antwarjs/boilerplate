@@ -1,7 +1,7 @@
 ---
 title: 'This is the beginning of a beautiful friendship'
 date: 2013-14-15
-headerImage: '/assets/img/5f468e98.jpg'
+headerImage: 'https://unsplash.imgix.net/photo-1422513391413-ddd4f2ce3340?q=75&fm=jpg&s=282e5978de17d6cd2280888d16f06f04'
 ---
 This is a blog post.
 
