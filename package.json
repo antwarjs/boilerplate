@@ -3,7 +3,9 @@
   "description": "Boilerplate for Antwar",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "version": "0.2.0",
-  "dependencies": {},
+  "dependencies": {
+    "antwar-default-theme": "0.0.1"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
