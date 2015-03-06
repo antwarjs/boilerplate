@@ -2,7 +2,15 @@
 
 
 module.exports = {
-    theme: 'antwar-default-theme',
+    theme: {
+    	name: 'antwar-default-theme'
+    	config: {
+    		navLinks: [
+    			{title: 'Home', path: '/'},
+    			{title: 'Blog', path: '/blog'}
+    		]
+    	}
+    },
     output: 'build',
 };
 
