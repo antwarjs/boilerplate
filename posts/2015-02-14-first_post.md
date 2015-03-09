@@ -16,4 +16,4 @@ You can write Markdown in it! More specifically, the kind of Markdown that's cal
 
 `Code code code code`
 
-
+The headerImage in the frontmatter (that's the part in the beginning of the file) is used by the theme to make your posts look good. It's optional though.

@@ -9,4 +9,4 @@ module.exports = React.createClass
 	render: ->
 		div {className: 'post'},
 			h1 className: 'post__heading', 'A page'
-			p 'This is a page. You can have as many pages as you like. Just add another fil to the `pages` folder.'
+			p 'This is a page. You can have as many pages as you like. Just add another file to the `pages` folder.'
