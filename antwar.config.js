@@ -1,9 +1,12 @@
 'use strict';
 
+var rssPlugin = require('antwar-rss-plugin');
 
 module.exports = {
   output: 'build',
   name: 'Antwar Boilerplate',
+  baseUrl: 'https://BOILERPLATE.COM/',
+  blogRoot: 'blog',
   author: {
     name: 'Dr A N Twar',
     email: 'antwar@antwar.com'
@@ -11,6 +14,9 @@ module.exports = {
   deploy: {
     branch: 'gh-pages',
   },
+  plugins: [
+    rssPlugin
+  ],
   theme: {
     name: 'antwar-default-theme',
     navigation: [
