@@ -2,7 +2,7 @@
   "name": "antwar-boilerplate",
   "description": "Boilerplate for Antwar",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "dependencies": {
     "antwar-rss-plugin": "^0.0.4",
     "antwar-default-theme": "^0.2.0"
