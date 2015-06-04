@@ -5,8 +5,6 @@ var rssPlugin = require('antwar-rss-plugin');
 module.exports = {
   output: 'build',
   name: 'Antwar Boilerplate',
-  baseUrl: 'https://BOILERPLATE.COM/',
-  blogRoot: 'blog',
   author: {
     name: 'Dr A N Twar',
     email: 'antwar@antwar.com'
@@ -15,7 +13,7 @@ module.exports = {
     branch: 'gh-pages',
   },
   plugins: [
-    rssPlugin
+    rssPlugin(),
   ],
   theme: {
     name: 'antwar-default-theme',
@@ -25,6 +23,22 @@ module.exports = {
     ],
     analyticsId: 'UA-XXXXXX-1',
     customStyles: 'specific.scss'
-  }
+  },
+  paths: {
+    '/': {
+      path: function() {
+        return require.context('./pages');
+      }
+    },
+    blog: {
+      title: 'Blog posts',
+      layout: 'blog',
+      path: function() {
+        return require.context('./posts', true, /^\.\/.*\.md$/);
+      },
+      draft: function() {
+        return require.context('./drafts', true, /^\.\/.*\.md$/);
+      },
+    }
+  },
 };
-
