@@ -18,8 +18,8 @@ module.exports = {
   theme: {
     name: 'antwar-default-theme',
     navigation: [
-      {title: 'Home', path: '/'},
-      {title: 'Blog', path: '/blog'}
+      {title: 'Home', url: '/'},
+      {title: 'Blog', url: '/blog'}
     ],
     analyticsId: 'UA-XXXXXX-1',
     customStyles: 'specific.scss'
