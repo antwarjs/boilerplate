@@ -2,7 +2,7 @@
   "name": "antwar-boilerplate",
   "description": "Boilerplate for Antwar",
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
-  "version": "0.2.7",
+  "version": "0.3.0",
   "dependencies": {
     "antwar-default-theme": "^0.3.0",
     "antwar-rss-plugin": "^0.1.0",
@@ -25,5 +25,6 @@
     "antwar",
     "boilerplate"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {}
 }
