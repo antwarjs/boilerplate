@@ -4,8 +4,8 @@
   "author": "Juho Vepsalainen <bebraw@gmail.com>",
   "version": "0.2.7",
   "dependencies": {
-    "antwar-default-theme": "antwarjs/default-theme",
-    "antwar-rss-plugin": "antwarjs/rss-plugin",
+    "antwar-default-theme": "^0.3.0",
+    "antwar-rss-plugin": "^0.1.0",
     "coffee-script": "^1.9.3",
     "lodash": "^3.9.3",
     "moment": "^2.10.3",
