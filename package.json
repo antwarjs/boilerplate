@@ -5,7 +5,7 @@
   "version": "0.4.0",
   "dependencies": {
     "antwar-default-theme": "^0.3.0",
-    "antwar-rss-plugin": "^0.3.0",
+    "antwar-rss-plugin": "^0.2.0",
     "react": "^0.13.3"
   },
   "devDependencies": {},
