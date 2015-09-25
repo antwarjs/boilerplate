@@ -6,7 +6,6 @@
   "dependencies": {
     "antwar-default-theme": "^0.3.0",
     "antwar-rss-plugin": "^0.3.0",
-    "coffee-script": "^1.9.3",
     "lodash": "^3.9.3",
     "moment": "^2.10.3",
     "node-libs-browser": "^0.5.2",
