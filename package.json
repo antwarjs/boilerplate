@@ -2,17 +2,13 @@
   "name": "antwar-boilerplate",
   "description": "Boilerplate for Antwar",
   "author": "",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "dependencies": {
     "antwar-default-theme": "^0.3.0",
     "antwar-rss-plugin": "^0.2.0",
     "react": "^0.13.3"
   },
-  "scripts": {
-    "start": "antwar -d",
-    "build": "antwar -b",
-    "deploy": "antwar -D"
-  },
+  "scripts": {},
   "devDependencies": {},
   "repository": {
     "type": "git",
@@ -26,6 +22,5 @@
     "antwar",
     "boilerplate"
   ],
-  "license": "MIT",
-  "scripts": {}
+  "license": "MIT"
 }
