@@ -8,6 +8,11 @@
     "antwar-rss-plugin": "^0.2.0",
     "react": "^0.13.3"
   },
+  "scripts": {
+    "start": "antwar -d",
+    "build": "antwar -b",
+    "deploy": "antwar -D"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
