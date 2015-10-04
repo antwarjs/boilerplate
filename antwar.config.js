@@ -13,7 +13,10 @@ module.exports = {
     branch: 'gh-pages',
   },
   plugins: [
-    rssPlugin(),
+    rssPlugin({
+      baseUrl: '<your url here>',
+      sections: ['blog']
+    }),
   ],
   theme: {
     name: 'antwar-default-theme',
