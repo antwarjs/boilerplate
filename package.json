@@ -4,9 +4,10 @@
   "author": "",
   "version": "0.4.4",
   "dependencies": {
-    "antwar-default-theme": "^0.3.0",
+    "antwar-default-theme": "^0.4.0",
     "antwar-rss-plugin": "^0.2.0",
-    "react": "^0.13.3"
+    "react": ">= 0.10.0 < 1.x"
+
   },
   "scripts": {
     "start": "antwar -d",
