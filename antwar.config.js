@@ -18,6 +18,9 @@ module.exports = {
       sections: ['blog']
     }),
   ],
+  layout: function() {
+    return require('./layouts/Body.jsx')
+  },
   theme: {
     name: 'antwar-default-theme',
     navigation: [
@@ -35,13 +38,23 @@ module.exports = {
     },
     blog: {
       title: 'Blog posts',
-      layout: 'blog',
       path: function() {
         return require.context('./posts', true, /^\.\/.*\.md$/);
       },
       draft: function() {
         return require.context('./drafts', true, /^\.\/.*\.md$/);
+      }
+      /*
+      Add custom layouts that render children here.
+      layouts: {
+        index: function() {
+          return require('./layouts/BlogIndex.jsx').default
+        },
+        page: function() {
+          return require('./layouts/BlogPage.jsx').default
+        }
       },
+      */
     }
   },
 };
