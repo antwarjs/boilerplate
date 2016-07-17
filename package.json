@@ -2,7 +2,7 @@
   "name": "antwar-boilerplate",
   "description": "Boilerplate for Antwar",
   "author": "",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "dependencies": {
     "antwar-default-theme": "^0.5.0",
     "antwar-rss-plugin": "^0.2.0",
